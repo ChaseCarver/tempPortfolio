@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn{
+        @apply px-2 pb-1 pt-0.5 bg-slate-200 rounded-md m-1 shadow-md hover:bg-slate-300
+    }
+}
+
+#blob1{
+    --webkit-mask-image: url("./blob1.svg"); 
+    mask-image: url("./blob1.svg");
+    mask-size: fill;
+}
+
+#blob2{
+    --webkit-mask-image: url("./blob2.svg"); 
+    mask-image: url("./blob2.svg");
+    mask-size: fill;
+}
+
+#blob3{
+    --webkit-mask-image: url("./blob3.svg"); 
+    mask-image: url("./blob3.svg");
+    mask-size: fill;
+}
